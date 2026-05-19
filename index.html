@@ -13,9 +13,6 @@ margin:0;
 height:100vh;
 background:#f5f1e8;
 overflow:hidden;
-display:flex;
-justify-content:center;
-align-items:center;
 }
 
 /* CONTENEDOR */
@@ -27,14 +24,30 @@ height:100vh;
 }
 
 /* IMAGEN */
-  
-<img src="./images/webekeko.png">
 
-/* CAMBIAR TAMAÑO */
+.mi-imagen{
+position:absolute;
+
+/* TAMAÑO */
 width:400px;
 
+/* POSICIÓN */
+top:100px;
+left:200px;
 
+object-fit:contain;
+}
 
+</style>
+</head>
 
+<body>
 
+<div class="image-box">
 
+<img src="./images/webekeko.png" class="mi-imagen">
+
+</div>
+
+</body>
+</html>
